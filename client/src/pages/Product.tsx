@@ -178,7 +178,7 @@ const Products = () => {
                       regularPrice={productData?.regularPrice}
                       discountedPrice={productData?.discountedPrice} 
                       className='text-x mt-4 mb-4'  />
-                    <AddToCartBtn title='Buy Now' className='bg-black/80 py-3 px-20 
+                    <AddToCartBtn product={productData} title='Buy Now' className='bg-black/80 py-3 px-20 
                      text-base text-gray-200 hover:scale-100 hover:text-white duration-200 mt-4'/>
                      
                   </div>

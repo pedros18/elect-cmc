@@ -1,4 +1,3 @@
-import logo from "./logo.webp";
 import discountImgOne from "./discountImgOne.png";
 import discountImgTwo from "./discountImgTwo.webp";
 import homeIcon from "./footerIcons/homeIcon.webp";
@@ -16,7 +15,6 @@ import productPayment from "./productPayment.webp";
 import homeBanner from "./homeBanner.jpg";
 
 export {
-  logo,
   discountImgOne,
   discountImgTwo,
   homeIcon,
