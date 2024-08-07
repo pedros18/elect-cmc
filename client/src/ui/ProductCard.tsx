@@ -46,7 +46,7 @@ const ProductCard = ({ product, setSearchText }: Props) => {
           alt='productItems'
           className='w-full h-full rounded-md object-cover group-hover:scale-110 duration-300'
         />
-        <ProductCardSideNav />
+        <ProductCardSideNav product={product}/>
       </div>
       <div className='flex flex-col gap-2 px-2 pb-2'>
         <h3 className='text-xs uppercase font-semibold text-lightText'>{product?.overView}</h3>

@@ -9,7 +9,7 @@ import CheckoutBtn from '../ui/CheckoutBtn';
 
 const Cart = () => {
   const [totalAmt,setTotalAmt]=useState({regular:0,discounted:0});
-  const { cartProduct } = store();
+  const { cartProduct , currentUser } = store();
   const shippingAmt = 25;
   const taxAmt = 15;
   useEffect(()=>{
